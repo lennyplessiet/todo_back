@@ -1,7 +1,7 @@
 # votre_projet/settings/production.py
 
 import os
-from django import dj_database_url
+import dj_database_url
 from .base import *
 
 # ==============================================================================
