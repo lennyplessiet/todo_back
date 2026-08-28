@@ -1,0 +1,100 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensions C
+*.so
+
+# ==========================
+# Virtual environments
+# ==========================
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================
+# Django
+# ==========================
+
+# Fichiers locaux
+*.log
+local_settings.py
+
+# Base de données SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# ==========================
+# Variables d'environnement
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Static files générés
+# ==========================
+staticfiles/
+static_collected/
+
+# ==========================
+# Media files uploadés
+# ==========================
+media/
+
+# ==========================
+# Tests / Coverage
+# ==========================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python packaging
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# ==========================
+# Celery
+# ==========================
+celerybeat-schedule
+celerybeat.pid
+
+# ==========================
+# Logs de serveurs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Secrets / certificats
+# ==========================
+*.pem
+*.key
+*.crt
+secrets/
